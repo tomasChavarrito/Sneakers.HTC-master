@@ -1,0 +1,103 @@
+.titulo {
+  text-align: center;
+  color: #fff;
+}
+
+.eslogan {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  padding: 50px 50px 50px 50px;
+}
+
+.parallax {
+  background-image: url("../assets/fondoHTCpantalla.jpg");
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 33%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  margin: 1.5%;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box .hover {
+  width: 0%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.466);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hover h3 {
+  color: #f0f8ff;
+  text-shadow: 1px #000;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.box:hover .hover {
+  width: 100%;
+}
+
+.card {
+  max-width: 600px;
+}
+
+.pie {
+  font-size: 15px;
+  color: #c00303;
+}
+
+.accordion {
+  width: 80%;
+  padding: 50px 50px 50px 50px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  margin: 0 10px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s all ease;
+  border-bottom: 3px solid transparent;
+  padding-bottom: 3px;
+}
+
+ul li a:hover {
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+/*# sourceMappingURL=style.min.css.map */

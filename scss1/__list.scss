@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+    display: flex;
+
+    li{
+        margin: 0 10px;
+        
+        a{
+            color:white;
+            text-decoration: none;
+            transition: 0.3s all ease;
+            border-bottom: 3px solid transparent;
+            padding-bottom: 3px;
+
+            &:hover{
+                color: red;
+                border-bottom: 2px solid red;
+            }
+        }
+    }
+}
